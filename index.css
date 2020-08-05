@@ -1,0 +1,16 @@
+.text-alam{
+    color: #4464AE !important;
+}
+.bg-alam{
+    background-color: #4464AE;
+}
+#header img{
+    width: 30px;
+}
+#main .row .col-2 img{
+    width: 150px;
+}
+#footer{
+    background: linear-gradient(90deg, #273b47, #1e5472 25%, #4464AE);
+    color: azure;
+}
