@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="index.css">
     <title>ALAM</title>
   </head>
-  <body data-spy="scroll" data-target="#navbar" data-offset="45.5333">
+  <body data-spy="scroll" data-target="#navbar" data-offset="74">
     <!--Header-->
     <nav id="header"class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <a class="navbar-brand text-alam" href="#">Agencia Aduanal ALAM
@@ -23,19 +23,19 @@
         <div class="collapse navbar-collapse" id="navbar">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#main">Inicio <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Servicios</a>
+              <a class="nav-link" href="#servicios">Servicios</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Nosotros</a>
+                <a class="nav-link" href="#nosotros">Nosotros</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Puerto de Manzanillo</a>
+                <a class="nav-link" href="#puerto">Puerto de Manzanillo</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-alam" href="#">Contacto</a>
+                <a class="nav-link text-alam" href="#contacto">Contacto</a>
             </li>
           </ul>
           <ul class="navbar-nav ml-auto">
@@ -63,7 +63,7 @@
       </nav>
     <!--/Header-->
     <!--Main-->
-      <section id="main" class="pb-4 pt-4">
+      <section id="main" class="pb-1 pt-2">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
@@ -101,20 +101,60 @@
     <!--/Main-->
     <!--Servicios-->
     <section id="servicios">
-        <hr class="my-4">
+      <div class="container-fluid">
+        <div class="row rounded border-2 shadow bg-white">
+          <div id="col1s" class="col-12 col-lg-6 ">
+            <img src="assetss/manza1.jpg" alt="MZO">
+          </div>
+          <div id="col2s" class="col-12 col-lg-6 pt-2 pb-4">
+            <h2 class="text-center">Nuestros servicios</h2>
+            <ul>
+              <li>Despacho Aduana Manzanillo, Colima - Aeropuerto de la cd. de México.</li>
+              <li>Asesoría aduanal y logística.</li>
+              <li>Consolidación de carga.</li>
+              <li>Asesoría legal en comercio exterior.</li>
+              <li>Etiquetado de mercancías.</li>
+              <li>Rastreo de embarques.</li>
+              <li>Fletes internacionales y nacionales.</li>
+              <li>Aseguramiento de carga.</li>
+              <li>Consulta en línea de cuentas de gastos y documentos de cada una de sus operaciones.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row rounded border-2 shadow bg-white">
+          <div id="col2s" class="col-12 col-lg-6 pt-2 pb-4">
+            <h2 class="text-center">Servicios integrales</h2>
+            <ul>
+              <li>Tu mercancía en las mejores manos.</li>
+              <li>Siempre a tiempo.</li>
+              <li>Carga suelta y contenedores.</li>
+              <li>Confiables.</li>
+              <li>Asesoria logística.</li>
+              <li>Almacenaje y distribución atravez de alianzas estratégica.</li>
+              <li>Servicios para la recepción y correcta manipulación de sus mercancías.</li>
+              <li>Despacho aduanero Manzanillo - Aeropuerto Ciudad de México.</li>
+              <li>Asesoría Legal (Maritimo, Portuario, Aduanera, Mercantil, Fisical y Administrativo).</li>
+            </ul>
+          </div>
+          <div id="col1s" class="col-12 col-lg-6 d-md-none d-lg-block">
+            <img src="assetss/manza1.jpg" alt="MZO">
+          </div>
+        </div>
+      </div>
+      <hr class="my-4">
     </section>
     <!--/Servicios-->
     <!--Nosotros-->
       <section id="nosotros">
-        <div class="container">
-            <div class="row">
+        <div class="container ">
+            <div class="row ">
                 <div class="col text-center">
                   <h2>Nosotros</h2>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 col-md">
-                    <div class="card">
+                    <div class="card shadow bg-white">
                         <div class="card-body">
                           <h5 class="card-title">Misión</h5>
                           <p class="card-text">Agencia Logística Aduanera de Manzanillo, S.C. es una empresa 
@@ -125,7 +165,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md">
-                    <div class="card">
+                    <div class="card shadow bg-white">
                         <div class="card-body">
                           <h5 class="card-title">Visión</h5>
                           <p class="card-text">Agencia Logística Aduanera de Manzanillo, S.C. es una empresa 
@@ -135,7 +175,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md">
-                    <div class="card">
+                    <div class="card shadow bg-white">
                         <div class="card-body">
                           <h5 class="card-title">Politíca general de calidad</h5>
                           <p class="card-text">Lograr la satisfacción permanente de las necesidades y 
@@ -152,10 +192,10 @@
               </div>
             </div>
             <div class="row pt-4">
-                <div class="col-5 col-md-2 rounded border-info border-2 shadow bg-white">
+                <div class="col-5 col-md-2 rounded border-2 shadow bg-white">
                     <i class="fas fa-praying-hands fa-9x ml-3 pt-3 pb-3 text-alam"></i>
                 </div>
-                <div class="col-5 col-md-2 offset-sm-1 rounded border-info border-2 shadow bg-white">
+                <div class="col-5 col-md-2 offset-sm-1 rounded border-2 shadow bg-white">
                       <i class="fas fa-hand-holding-heart fa-9x ml-3 pt-3 pb-3 text-alam"></i>  
                 </div>
                 <div class="col-5 d-md-none d-sm-block">
@@ -166,10 +206,10 @@
                   <hr>
                   <h5 class="text-center">Confianza</h5>
                 </div>
-                <div class="col-5 col-md-2 offset-md-1 rounded border-info border-2 shadow bg-white">
+                <div class="col-5 col-md-2 offset-md-1 rounded border-2 shadow bg-white">
                   <i class="fas fa-user-shield fa-9x ml-3 pt-3 pb-3 text-alam"></i>
                 </div>
-                <div class="col-5 col-md-2 offset-sm-1 rounded border-info border-2 shadow bg-white">
+                <div class="col-5 col-md-2 offset-sm-1 rounded border-2 shadow bg-white">
                     <i class="fas fa-people-carry fa-9x ml-3 mr-3 pt-3 pb-3 text-alam"></i>
                 </div>
                 <div class="col-5 d-md-none d-sm-block">
