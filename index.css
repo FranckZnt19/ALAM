@@ -7,9 +7,6 @@
 #header img{
     width: 30px;
 }
-#main .row .col-md-2 img,#main .row .col-12 img{
-    width: 150px;
-}
 #main .m2{
     background-color: #4464AE;
     color: azure;
@@ -21,13 +18,9 @@
     background-color: #4464AE;
     color: azure;
 }
-
 #puerto #p1{
     background-color: #4464AE;
     color: azure;
-}
-#puerto img{
-    max-width: 100%;
 }
 #footer{
     background: linear-gradient(90deg, #273b47, #1e5472 25%, #4464AE);
