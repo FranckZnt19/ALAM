@@ -7,6 +7,9 @@
 #header img{
     width: 30px;
 }
+#main .row #im1{
+    max-width: 100%;
+}
 #main .m2{
     background-color: #4464AE;
     color: azure;
