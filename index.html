@@ -73,23 +73,54 @@
                                 <div class="col-12 col-md-2">
                                     <img id="im1" src="assetss/logo1.png" alt="Logo">
                                 </div>
-                                <div class="col-12 col-md-8 mt-5 offset-md-1">
+                                <div class="col-12 col-md-8 mt-5 offset-md-1 d-none d-md-block">
                                     <h1 class="display-4">Agencia Logística Aduanera de Manzanillo</h1>
-                                    <h4 class="text-alam">"Servicios con excelencia"</h4>
+                                    <h4 class="text-alam">"Servicios con excelencia"</h4> <br> <br>
+                                    <button class="btn bg-alam bg-alam1" data-toggle="modal" data-target="#formu">¡Quiero saber más!</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="row pb-3 ">
+              <div  class="rounded border-2 shadow bg-white col-10 offset-1 d-md-none d-block">
+                <form class="pb-3">
+                  <div class="form-group">
+                    <h5 class="text-center">Llena el formulario para recibir más información.</h5>
+                  </div>
+                  <hr>
+                  <div class="form-group">
+                    <label for="Empresa">Empresa:</label>
+                    <input type="text" class="form-control" id="Empresa">
+                  </div>
+                  <div class="form-group">
+                    <label for="Nombre">Nombre:</label>
+                    <input type="tel" class="form-control" id="Nombre">
+                  </div>
+                  <div class="form-group">
+                    <label for="Ciudad">Ciudad o país:</label>
+                    <input type="tel" class="form-control" id="Ciudad">
+                  </div>
+                  <div class="form-group">
+                    <label for="Correo">Correo:</label>
+                    <input type="email" class="form-control" id="Correo" aria-describedby="emailHelp">                  </div>
+                  <div class="form-group">
+                    <label for="Telefono">Telefono:</label>
+                    <input type="tel" class="form-control" id="Telefono">
+                  </div>
+                  <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+                </form>
+              </div>
+            </div>
             <div class="row m2">
-              <div id="m1" class="col-12 col-md-6">
+              <div id="m1" class="col-12 col-lg-6">
                 <h5 class="mt-5">El AGENTE ADUANAL es una persona física a quien la Secretaría de Hacienda 
                     y Crédito Público autoriza mediante una patente, para promover por cuenta 
                     ajena el despacho de las mercancías, en los diferentes regímenes aduaneros 
                 previstos en la Ley Aduanera de quien contrate sus servicios.</h5>
               </div>
-              <div id="m1" class="col-12 col-md-6 embed-responsive"> 
+              <div id="m1" class="col-12 col-lg-6 embed-responsive"> 
                 <iframe src="https://www.youtube.com/embed/mwyAws59BDE" allowfullscreen></iframe>
               </div>
           </div>
@@ -314,6 +345,44 @@
       <section id="contacto">
       </section>
     <!--/Contacto-->
+    <!--Modal-->
+    <div class="modal" tabindex="-1" id="formu">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">Llena el formulario para recibir más información.</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form class="pb-3">
+              <div class="form-group">
+                <label for="Empresa">Empresa:</label>
+                <input type="text" class="form-control" id="Empresa">
+              </div>
+              <div class="form-group">
+                <label for="Nombre">Nombre:</label>
+                <input type="tel" class="form-control" id="Nombre">
+              </div>
+              <div class="form-group">
+                <label for="Ciudad">Ciudad o país:</label>
+                <input type="tel" class="form-control" id="Ciudad">
+              </div>
+              <div class="form-group">
+                <label for="Correo">Correo:</label>
+                <input type="email" class="form-control" id="Correo" aria-describedby="emailHelp">                  </div>
+              <div class="form-group">
+                <label for="Telefono">Telefono:</label>
+                <input type="tel" class="form-control" id="Telefono">
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/Modal-->
     <!--footer-->
     <footer id="footer">
         <div class="container-fluid">
