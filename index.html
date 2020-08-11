@@ -35,17 +35,16 @@
                 <a class="nav-link" href="#puerto">Puerto de Manzanillo</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-alam" href="#contacto">Contacto</a>
+                <a class="nav-link text-alam" href="#footer">Contacto</a>
             </li>
           </ul>
           <ul class="navbar-nav ml-auto">
             <form>
                 <div class="form-row pb-1">
-                    <div class="col">
+                    <div class="col-4">
                         <span class="badge badge-light">Ingresar al sistema. </span>
-                        
                     </div>
-                    <div class="col">
+                    <div class="col-4">
                         <span class="badge badge-warning">¡Estamos en producción!</span>
                     </div>
                 </div>
@@ -56,6 +55,9 @@
                   <div class="form-group col-12 col-md">
                     <input type="password" class="form-control" placeholder="******">
                   </div>
+                  <div class="form-group col-12 col-md">
+                    <button type="button" class="btn bg-alam bg-alam1">Ingresar</button>
+                  </div>
                 </div>
               </form>
           </ul>
@@ -64,26 +66,24 @@
     <!--/Header-->
     <!--Main-->
       <section id="main" class="pt-2">
+        <div class="jumbotron bg-light text-center">
+          <div class="container-fluid">
+              <div class="row">
+                  <div class="col-12 col-md-2">
+                      <img id="im1" src="assetss/logo1.png" alt="Logo">
+                  </div>
+                  <div class="col-12 col-md-8 pt-5 offset-md-1 d-none d-md-block">
+                    <center>
+                      <h1 class="display-4">Agencia Logística Aduanera de Manzanillo</h1>
+                      <h4 class="text-alam">"Servicios con excelencia"</h4> <br> <br>
+                      <button class="btn bg-alam bg-alam1" data-toggle="modal" data-target="#formu">¡Quiero saber más!</button>
+                    </center>
+                  </div>
+              </div>
+          </div>
+      </div>
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-12">
-                    <div class="jumbotron bg-light text-center">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-12 col-md-2">
-                                    <img id="im1" src="assetss/logo1.png" alt="Logo">
-                                </div>
-                                <div class="col-12 col-md-8 mt-5 offset-md-1 d-none d-md-block">
-                                    <h1 class="display-4">Agencia Logística Aduanera de Manzanillo</h1>
-                                    <h4 class="text-alam">"Servicios con excelencia"</h4> <br> <br>
-                                    <button class="btn bg-alam bg-alam1" data-toggle="modal" data-target="#formu">¡Quiero saber más!</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row pb-3 ">
+            <div class="row pb-3">
               <div  class="rounded border-2 shadow bg-white col-10 offset-1 d-md-none d-block">
                 <form class="pb-3">
                   <div class="form-group">
@@ -115,10 +115,12 @@
             </div>
             <div class="row m2">
               <div id="m1" class="col-12 col-lg-6">
-                <h5 class="mt-5">El AGENTE ADUANAL es una persona física a quien la Secretaría de Hacienda 
+                <center>
+                  <h5 class="pt-5 text-justify">El AGENTE ADUANAL es una persona física a quien la Secretaría de Hacienda 
                     y Crédito Público autoriza mediante una patente, para promover por cuenta 
                     ajena el despacho de las mercancías, en los diferentes regímenes aduaneros 
                 previstos en la Ley Aduanera de quien contrate sus servicios.</h5>
+                </center>
               </div>
               <div id="m1" class="col-12 col-lg-6 embed-responsive"> 
                 <iframe src="https://www.youtube.com/embed/mwyAws59BDE" allowfullscreen></iframe>
@@ -135,8 +137,8 @@
             <img src="assetss/manza1.jpg" alt="MZO">
           </div>
           <div class="col-12 col-lg-6 pt-2 pb-4">
-            <h2 class="text-center mt-5">Nuestros servicios</h2>
-            <ul class="mt3">
+            <h2 class="text-center pt-5">Nuestros servicios</h2>
+            <ul class="mt-3 text-justify">
               <li>Despacho Aduana Manzanillo, Colima - Aeropuerto de la cd. de México.</li>
               <li>Asesoría aduanal y logística.</li>
               <li>Consolidación de carga.</li>
@@ -154,8 +156,8 @@
         </div>
         <div class="row">
           <div class="col-12 col-lg-6 pt-2 pb-4">
-            <h2 class="text-center mt-5">Servicios integrales</h2>
-            <ul class="mt3">
+            <h2 class="text-center pt-5">Servicios integrales</h2>
+            <ul class="mt-3 text-justify">
               <li>Tu mercancía en las mejores manos.</li>
               <li>Siempre a tiempo.</li>
               <li>Carga suelta y contenedores.</li>
@@ -173,10 +175,9 @@
         </div>
       </div>
     </section>
-    <hr class="my-4 pb-4">
     <!--/Servicios-->
     <!--Nosotros-->
-      <section id="nosotros">
+      <section id="nosotros" class="pt-3">
         <div class="container">
             <div class="row pb-3">
                 <div class="col text-center">
@@ -188,7 +189,7 @@
                 <div class="card shadow bg-white">
                   <div class="card-body">
                     <h5 class="card-title text-center pb-3">Conoce nuestra historia:</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat sit possimus voluptate ipsa, facere, in, error molestias quidem repudiandae repellendus assumenda quas autem cumque dicta beatae ut laboriosam! Quas, ut?
+                    <p class="card-text text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat sit possimus voluptate ipsa, facere, in, error molestias quidem repudiandae repellendus assumenda quas autem cumque dicta beatae ut laboriosam! Quas, ut?
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam accusamus corporis placeat, adipisci eveniet explicabo tempora facilis quos molestiae culpa fuga possimus cumque quod debitis officia, ut ea eligendi eum!
                       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, vel esse! Ab omnis, eos autem maiores harum deleniti consequuntur recusandae praesentium cumque delectus ipsa quidem quasi facilis saepe aspernatur inventore.
                       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem tempora numquam quam voluptas dolore accusantium vero molestias officiis nostrum similique eligendi necessitatibus repudiandae earum veritatis vitae libero distinctio, neque delectus.
@@ -203,7 +204,7 @@
                     <div class="card shadow bg-white">
                         <div class="card-body">
                           <h5 class="card-title">Misión</h5>
-                          <p class="card-text">Agencia Logística Aduanera de Manzanillo, S.C. es una empresa 
+                          <p class="card-text text-justify">Agencia Logística Aduanera de Manzanillo, S.C. es una empresa 
                               de servicio, enfocada en efectuar de manera profesional y con ética, 
                               la representación otorgada por nuestros clientes, en el despacho aduanero y la 
                               logística requerida.</p>
@@ -214,7 +215,7 @@
                     <div class="card shadow bg-white">
                         <div class="card-body">
                           <h5 class="card-title">Visión</h5>
-                          <p class="card-text">Agencia Logística Aduanera de Manzanillo, S.C. es una empresa 
+                          <p class="card-text text-justify">Agencia Logística Aduanera de Manzanillo, S.C. es una empresa 
                               de servicio competitiva y productiva que contribuye al desarrollo profesional 
                               de nuestros clientes y colaboradores.</p>
                         </div>
@@ -224,7 +225,7 @@
                     <div class="card shadow bg-white">
                         <div class="card-body">
                           <h5 class="card-title">Politíca general de calidad</h5>
-                          <p class="card-text">Lograr la satisfacción permanente de las necesidades y 
+                          <p class="card-text text-justify">Lograr la satisfacción permanente de las necesidades y 
                               expectativas de los clientes, en concordancia con los lineamientos legales; 
                               contando con  colaboradores calificados y comprometidos, fomentando el trabajo 
                               en equipo en un ambiente laboral apropiado.</p>
@@ -239,14 +240,14 @@
             </div>
             <div class="row pt-4">
                 <div class="col-7 col-md-5 offset-2 offset-md-0 offset-lg-1 col-lg-2 rounded border-2 shadow bg-white">
-                    <i class="fas fa-praying-hands fa-9x ml-3 pt-3 pb-3 text-alam"></i>
+                  <center><i class="fas fa-praying-hands fa-9x pt-3 pb-3 text-alam"></i></center>
                 </div>
                 <div class="col-7 offset-2 offset-lg-1 d-md-none d-sm-block">
                   <hr>
                 <h5 class="text-center">Honradez</h5>
                 </div>
                 <div class="col-7 col-md-5 offset-2 col-lg-2 offset-lg-1 rounded border-2 shadow bg-white">
-                      <i class="fas fa-hand-holding-heart fa-9x ml-3 pt-3 pb-3 text-alam"></i>  
+                      <center><i class="fas fa-hand-holding-heart fa-9x pt-3 pb-3 text-alam"></i></center>
                 </div>
                 <div class="col-md-5 offset-2 offset-md-0 d-md-block d-sm-none d-lg-none d-none">
                   <hr>
@@ -257,14 +258,14 @@
                   <h5 class="text-center">Confianza</h5>
                 </div>
                 <div class="col-7 col-md-5 offset-2 offset-md-0 col-lg-2 offset-lg-1 pb-3 pt-3 rounded border-2 shadow bg-white">
-                  <i class="fas fa-user-shield fa-9x ml-3 pt-3 pb-3 text-alam"></i>
+                  <center><i class="fas fa-user-shield fa-9x pt-3 pb-3 text-alam"></i></center>
                 </div>
                 <div class="col-7 offset-2 offset-md-1 d-md-none d-sm-block">
                   <hr>
                   <h5 class="text-center">Responsabilidad</h5>
                 </div>
                 <div class="col-7 col-md-5 offset-2 col-lg-2 offset-lg-1 pb-3 pt-3 rounded border-2 shadow bg-white">
-                    <i class="fas fa-people-carry fa-9x ml-3 mr-3 pt-3 pb-3 text-alam"></i>
+                    <center><i class="fas fa-people-carry fa-9x pt-3 pb-3 text-alam"></i></center>
                 </div>
                 <div class="col-md-5 offset-2 offset-md-0 d-md-block d-lg-none d-sm-none d-none">
                   <hr>
@@ -294,19 +295,18 @@
               </div>
             </div>
         </div>
-        <hr class="my-4">
       </section>
     <!--/Nosotros-->
     <!--Puerto-->
-      <section id="puerto">
+      <section id="puerto" class="pt-3">
         <div class="container-fluid">
           <div id="p1" class="row">
-            <div class="col-12 col-lg-6 embed-responsive embed-responsive-16by9">
+            <div class="col-12 col-lg-6 embed-responsive">
                 <iframe src="https://www.youtube.com/embed/Rfaw8Yd88nw" allowfullscreen></iframe>
             </div>
             <div class="col-12 col-lg-6">
               <h2 class="mt-5">Puerto de Manzanillo</h2>
-              <p>Manzanillo es la ciudad y municipio más extenso y poblado del estado de Colima, limita al 
+              <p class="text-justify">Manzanillo es la ciudad y municipio más extenso y poblado del estado de Colima, limita al 
                 norte con Minatitlan al este con Coquimatlán y Armería; al sur, está el océano Pacífico; y al 
                 oeste y noroeste limita con el estado de Jalisco. La ciudad se compone de 9 localidades, El 
                 Naranjo, Miramar, Las Brisas, El Colomo, Tapeixtles, Salagua, Valle de las Garzas, Santiago y 
@@ -327,23 +327,21 @@
           </div>
           <div class="row">
             <div class="col-12 col-lg-6 embed-responsive">
+              <center>
               <a href="https://estacionpacifico.com/2019/04/05/manzanillo-arriba-al-lugar-3-de-los-puertos-mas-importantes-de-america-latina/">
-                <img src="assetss/Estadistica.jpg" class="d-block w-100" alt="E1">
+                <img src="assetss/Estadistica.jpg" class="d-block" alt="E1"></center>
               </a>
             </div>
-            <div class="col-12 col-lg-6 embed-responsive">
+            <div class="col-12 col-lg-6 embed-responsive pt-1">
+              <center>
               <a href="https://estacionpacifico.com/2019/01/10/el-puerto-de-manzanillo-rebasa-la-marca-de-3-millones-de-contenedores/">
-                <img src="assetss/Estadistica1.jpg" class="d-block w-100" alt="E2">
+                <img src="assetss/Estadistica1.jpg" class="d-block" alt="E2"></center>
               </a>
             </div>
           </div>
         </div>
       </section>
     <!--/puerto-->
-    <!--Contacto-->
-      <section id="contacto">
-      </section>
-    <!--/Contacto-->
     <!--Modal-->
     <div class="modal" tabindex="-1" id="formu">
       <div class="modal-dialog">
@@ -370,7 +368,8 @@
               </div>
               <div class="form-group">
                 <label for="Correo">Correo:</label>
-                <input type="email" class="form-control" id="Correo" aria-describedby="emailHelp">                  </div>
+                <input type="email" class="form-control" id="Correo" aria-describedby="emailHelp">                  
+              </div>
               <div class="form-group">
                 <label for="Telefono">Telefono:</label>
                 <input type="tel" class="form-control" id="Telefono">
@@ -386,31 +385,33 @@
     <footer id="footer">
         <div class="container-fluid">
             <div class="row pb-3 pt-5">
-                <div class="col-12 col-lg pb-3">
-                    <img src="assetss/logo1.png" alt="">
+                <div class="col-12 col-md-6 col-lg pb-3">
+                  <center>
+                    <img src="assetss/logo1.png" alt="logo alam">
+                  </center>
                 </div>
-                <div class="col-12 col-lg pb-3">
-                  <h6></h6><i class="fas fa-map-marked fa-3x"></i>
+                <div class="col-12 col-md-6 col-lg pb-3 text-justify">
+                  <h6><i class="fas fa-map-marked fa-3x"></i>
                     A.v.Lázaro Cárdenas #1492
                     Col.Morelos, 
                     </h6>
-                <h6 class="ml-5">C.P.28217 Manzanillo, Col.
+                  <h6 class="pl-5">C.P.28217 Manzanillo, Col.
                     México.</h6>
                   <br>
                   <br>
                   <h6><i class="fas fa-phone fa-3x"></i>
                     +52 (314)333 6651
                   </h6>
-                  <h6 class="ml-5">+52 (314)335 5200</h6>
+                  <h6 class="pl-5">+52 (314)335 5200</h6>
                   <br>
                   <br>
                   <h6><i class="fas fa-envelope fa-3x"></i> comercializacion@alam.com.mx
                   </h6>
                 </div>
-                <div class="col-12 col-lg pb-3">
-                  <h5>Aviso de privacidad</h5>
+                <div class="col-12 col-lg">
+                  <h5 class="text-center">Aviso de privacidad</h5>
                     <br>
-                    <p>AGENCIA LOGÍSTICA ADUANERA DE MANZANILLO, S.C., con domicilio en Avenida Lázaro Cárdenas
+                    <p class="text-justify">AGENCIA LOGÍSTICA ADUANERA DE MANZANILLO, S.C., con domicilio en Avenida Lázaro Cárdenas
                        número 1492, Colonia Morelos, Manzanillo, Colima, Código Postal 28217, utilizará sus 
                        datos personales aquí recabados para los servicios de encomienda mercantil y despachos 
                        aduaneros. Para mayor información acerca del tratamiento y de los derechos que puede 
@@ -421,14 +422,14 @@
                     </a>
                     <br>
                     <br>
-                    <h5>Sitios de interes</h5>
-                    <ul >
+                    <h5 class="text-justify"> Sitios de interes</h5>
+                    <ul class="text-justify">
                         <li> <a class="text-light" href="www.caaarem.mx/web_caaarem/Principal.html">CAAAREM</a> </li>
                         <li> <a class="text-light" href="http://www.aaamzo.org.mx/home.php">AAAPUMAC</a> </li>
                     </ul>
                 </div>
             </div>
-            <hr class="my-4">
+            <hr>
             <div class="row pt-2 pb-3">
                 <div class="col">
                     <h6 class="text-center">Copyright © 2020 Agencia Aduanal ALAM | Quetzaltech;</h3>

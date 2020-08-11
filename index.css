@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+}
 .text-alam{
     color: #4464AE !important;
 }
@@ -30,10 +33,14 @@
     background-color: #4464AE;
     color: azure;
 }
+#puerto .row img{
+    max-width: 100%;
+}
 #footer{
     background: linear-gradient(90deg, #273b47, #1e5472 25%, #4464AE);
     color: azure;
 }
 #footer img{
     max-width: 40%;
+    
 }
